@@ -12,6 +12,7 @@
 		16AEC30621906B3E00843289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC30421906B3E00843289 /* Main.storyboard */; };
 		16AEC30821906B3F00843289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC30721906B3F00843289 /* Assets.xcassets */; };
 		16AEC30B21906B3F00843289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC30921906B3F00843289 /* LaunchScreen.storyboard */; };
+		16AEC31421906EF700843289 /* Reusable.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC31221906EF700843289 /* Reusable.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		16AEC30721906B3F00843289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16AEC30A21906B3F00843289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16AEC30C21906B3F00843289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AEC31321906EF700843289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = ReusableStoryboard/Base.lproj/Reusable.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		16AEC2FF21906B3E00843289 /* ReusableStoryboard */ = {
 			isa = PBXGroup;
 			children = (
+				16AEC31221906EF700843289 /* Reusable.storyboard */,
 				16AEC30021906B3E00843289 /* AppDelegate.swift */,
 				16AEC30221906B3E00843289 /* ViewController.swift */,
 				16AEC30421906B3E00843289 /* Main.storyboard */,
@@ -123,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16AEC30B21906B3F00843289 /* LaunchScreen.storyboard in Resources */,
+				16AEC31421906EF700843289 /* Reusable.storyboard in Resources */,
 				16AEC30821906B3F00843289 /* Assets.xcassets in Resources */,
 				16AEC30621906B3E00843289 /* Main.storyboard in Resources */,
 			);
@@ -157,6 +161,14 @@
 				16AEC30A21906B3F00843289 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		16AEC31221906EF700843289 /* Reusable.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16AEC31321906EF700843289 /* Base */,
+			);
+			name = Reusable.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
