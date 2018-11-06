@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		166D2E942191EB380097708F /* SecondScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 166D2E932191EB380097708F /* SecondScreenController.swift */; };
 		16AEC30121906B3E00843289 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEC30021906B3E00843289 /* AppDelegate.swift */; };
 		16AEC30321906B3E00843289 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEC30221906B3E00843289 /* ViewController.swift */; };
 		16AEC30621906B3E00843289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC30421906B3E00843289 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		166D2E932191EB380097708F /* SecondScreenController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenController.swift; sourceTree = "<group>"; };
 		16AEC2FD21906B3E00843289 /* ReusableStoryboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableStoryboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		16AEC30021906B3E00843289 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		16AEC30221906B3E00843289 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				16AEC30721906B3F00843289 /* Assets.xcassets */,
 				16AEC30921906B3F00843289 /* LaunchScreen.storyboard */,
 				16AEC30C21906B3F00843289 /* Info.plist */,
+				166D2E932191EB380097708F /* SecondScreenController.swift */,
 			);
 			path = ReusableStoryboard;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			files = (
 				16AEC30321906B3E00843289 /* ViewController.swift in Sources */,
 				16AEC30121906B3E00843289 /* AppDelegate.swift in Sources */,
+				166D2E942191EB380097708F /* SecondScreenController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
